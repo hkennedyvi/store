@@ -1,0 +1,26 @@
+.navbar {
+    width: 100vw;
+    height: 5rem;
+    background: black;
+    color: white;
+    transition: height 500ms ease;
+}
+
+.navbar-expand {
+    height: 10rem;
+    background: black;
+    color: white;
+    transition: height 500ms ease;
+}
+
+.nav-burger {
+    float: right;
+}
+
+.burger-top, .burger-middle, .burger-bottom {
+    width: 3rem;
+    height: 0.5rem;
+    background: black;
+    margin: 0.5rem 0;
+    transition: 500ms;
+}
