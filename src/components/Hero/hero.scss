@@ -1,0 +1,25 @@
+.hero {
+    height: 80vh;
+    padding: 20px;
+    background: url('../../assets/clouds.jpg');
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    color: hotpink;
+    font-size: 80px;
+}
+
+.button {
+    color: hotpink;
+    background: purple;
+    width: 15rem;
+    border-radius: 5em;
+    padding: 1rem;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
