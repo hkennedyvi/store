@@ -4,17 +4,19 @@ import './navbar.scss';
 function NavBar() {
 
     const [navBarExpanded, setNavBarExpanded] = useState(false);
+    const [burgerStatus, setBurgerStatus] = useState('closed');
 
     function toggleNavBar(e) {
         e.preventDefault();
         setNavBarExpanded(!navBarExpanded);
+        setBurgerStatus(burgerStatus === 'open' ? 'closed' : 'open')
     }
     return (
       <nav className={navBarExpanded ? "navbar-expand" : "navbar"} >
           <button className="nav-burger" onClick={toggleNavBar}>
-              <div className="burger-top"></div>
-              <div className="burger-middle"></div>
-              <div className="burger-bottom"></div>
+              <div className={`burger-line ${burgerStatus}`}></div>
+              <div className={`burger-line ${burgerStatus}`}></div>
+              <div className={`burger-line ${burgerStatus}`}></div>
           </button>
       </nav>
     );
