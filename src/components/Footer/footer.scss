@@ -1,0 +1,15 @@
+.footer {
+    background: darkgrey;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.footer-content:nth-child(1) {
+    color: white;
+    grid-column: 1 / span 4;
+}
+
+.footer-content {
+    text-align: center;
+    font-size: 30px;
+}
