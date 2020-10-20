@@ -7,8 +7,33 @@
     transition: height 200ms ease, background-color 200ms ease;
 }
 
+.nav-list {
+    color: hotpink;
+    line-height: 5rem;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 4rem 0 0 0;
+    font-size: 3rem;
+}
+
+.nav-item {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.nav-item-expand {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 500ms, opacity 1000ms linear;
+}
+
+.nav-item-expand:hover {
+    background: rgb(15, 15, 15);
+}
+
 .navbar-expand {
-    height: 10rem;
+    height: 25rem;
     background: black;
     color: white;
     transition: height 200ms ease, background-color 200ms ease;
@@ -25,7 +50,7 @@
  .burger-line {
     width: 3rem;
     height: 0.2rem;
-    background: white;
+    background: hotpink;
     margin: 0.75rem 0;
     transition: 500ms;
  }

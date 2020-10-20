@@ -12,14 +12,28 @@ function NavBar() {
         setBurgerStatus(burgerStatus === 'open' ? 'closed' : 'open')
     }
     return (
-      <nav className={navBarExpanded ? "navbar-expand" : "navbar"} >
-          <button className="nav-burger" onClick={toggleNavBar}>
-              <div className={`burger-line ${burgerStatus}`}></div>
-              <div className={`burger-line ${burgerStatus}`}></div>
-              <div className={`burger-line ${burgerStatus}`}></div>
-          </button>
-      </nav>
+        <nav className={navBarExpanded ? "navbar-expand" : "navbar"} >
+            <button className="nav-burger" onClick={toggleNavBar}>
+                <div className={`burger-line ${burgerStatus}`}></div>
+                <div className={`burger-line ${burgerStatus}`}></div>
+                <div className={`burger-line ${burgerStatus}`}></div>
+            </button>
+            <ul className="nav-list">
+                <li className={navBarExpanded ? "nav-item-expand" : "nav-item"}>
+                    HOME
+                  </li>
+                <li className={navBarExpanded ? "nav-item-expand" : "nav-item"}>
+                    ABOUT
+                  </li>
+                <li className={navBarExpanded ? "nav-item-expand" : "nav-item"}>
+                    SHOP
+                  </li>
+                <li className={navBarExpanded ? "nav-item-expand" : "nav-item"}>
+                    CONTACT
+                  </li>
+            </ul>
+        </nav>
     );
-  }
-  
-  export default NavBar;
+}
+
+export default NavBar;
