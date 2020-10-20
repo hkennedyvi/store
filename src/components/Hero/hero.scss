@@ -9,17 +9,28 @@
 }
 
 .header {
-    color: hotpink;
+    margin: 12rem 0 3rem 0;
+    color: black;
     font-size: 80px;
 }
 
 .button {
     color: hotpink;
-    background: purple;
-    width: 15rem;
+    background: black;
+    width: 8rem;
+    height: 8rem;
     border-radius: 5em;
-    padding: 1rem;
+    border: white solid 1px;
+    padding: 2.5rem;
     font-size: 20px;
     display: flex;
     justify-content: center;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button:focus {
+    outline: none;
 }
