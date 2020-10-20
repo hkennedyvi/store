@@ -1,16 +1,17 @@
 .navbar {
     width: 100vw;
     height: 5rem;
-    background: black;
+    background: transparent;
+    position: absolute;
     color: white;
-    transition: height 500ms ease;
+    transition: height 200ms ease, background-color 200ms ease;
 }
 
 .navbar-expand {
     height: 10rem;
     background: black;
     color: white;
-    transition: height 500ms ease;
+    transition: height 200ms ease, background-color 200ms ease;
 }
 
 .nav-burger {
