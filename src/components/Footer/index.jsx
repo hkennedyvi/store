@@ -18,24 +18,26 @@ function Footer() {
         </div>
         <div className="footer-icons-container">
           <div className="footer-icon">
-            <i class="fab fa-twitter-square"></i>
+            <i className="fab fa-twitter-square"></i>
           </div>
           <div className="footer-icon">
-            <i class="fab fa-twitter-square"></i>
+            <i className="fab fa-twitter-square"></i>
           </div>
           <div className="footer-icon">
-            <i class="fab fa-twitter-square"></i>
+            <i className="fab fa-twitter-square"></i>
           </div>
           <div className="footer-icon">
-            <i class="fab fa-twitter-square"></i>
+            <i className="fab fa-twitter-square"></i>
           </div>
         </div>
       </div>
       <div>
-        Sign up for our newsletter:
+        <p className="newsletter-label">
+          Sign up for our newsletter:
+        </p>
         <form action="">
-          <input type="text"/>
-          <button>GO</button>
+          <input className="newsletter-text-field" placeholder="email@me.com" type="text" />
+          <input className="newsletter-submit" type="submit" value="GO" />
         </form>
       </div>
     </div>
