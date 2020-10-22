@@ -9,7 +9,7 @@ function NavBar() {
     function toggleNavBar(e) {
         e.preventDefault();
         setNavBarExpanded(!navBarExpanded);
-        setBurgerStatus(burgerStatus === 'open' ? 'closed' : 'open')
+        setBurgerStatus(burgerStatus === 'open' ? 'closed' : 'open');
     }
     return (
         <nav className={navBarExpanded ? "navbar-expand" : "navbar"} >
