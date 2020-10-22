@@ -13,7 +13,25 @@
     width: 70%;
 }
 
-.about-blurb {
+.about-blurb-container {
     border: red solid 1px;
+    padding: 0 2rem;
+    
 }
 
+.about-blurb-header {
+    font-size: 5rem;
+}
+
+.about-blurb-text {
+    line-height: 2.5rem;
+    font-size: 2rem;
+}
+
+.about-icons-container {
+    font-size: 7rem;
+    color: hotpink;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4rem 0;
+}
