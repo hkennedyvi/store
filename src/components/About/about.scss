@@ -1,0 +1,19 @@
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(240px, 1fr));
+}
+
+.about-image-container {
+    text-align: center;
+    padding: 2rem;
+    border: red solid 1px;
+}
+
+.about-image {
+    width: 70%;
+}
+
+.about-blurb {
+    border: red solid 1px;
+}
+
