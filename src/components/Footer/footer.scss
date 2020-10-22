@@ -1,15 +1,29 @@
 .footer {
     background: darkgrey;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5rem 0;
 }
 
-.footer-content:nth-child(1) {
+.footer-nav-container {
+    list-style: none;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+.footer-nav-item:hover {
+    text-decoration: underline;
     color: white;
-    grid-column: 1 / span 4;
 }
 
-.footer-content {
-    text-align: center;
-    font-size: 30px;
+.footer-middle {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-icons-container {
+    display: flex;
+    font-size: 3rem;
+    justify-content: space-evenly;
 }
