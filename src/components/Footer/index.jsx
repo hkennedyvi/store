@@ -14,12 +14,9 @@ function Footer() {
       </div>
       <div className="footer-middle">
         <div className="footer-text">
-          <p>THANKS FOR VISITING OUR SITE</p>
+          <p>Find us on social</p>
         </div>
         <div className="footer-icons-container">
-          <div className="footer-icon">
-            <i className="fab fa-twitter-square"></i>
-          </div>
           <div className="footer-icon">
             <i className="fab fa-twitter-square"></i>
           </div>
