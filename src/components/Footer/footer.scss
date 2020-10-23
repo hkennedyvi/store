@@ -8,8 +8,8 @@
 
 .footer-nav-container {
     list-style: none;
-    font-size: 1.5rem;
-    line-height: 3rem;
+    font-size: 1rem;
+    line-height: 2rem;
 }
 
 .footer-nav-item:hover {
@@ -29,19 +29,29 @@
 }
 
 .newsletter-label {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .newsletter-text-field {
-    font-size: 2rem;
+    font-size: 1rem;
+    background: transparent;
+    border: none;
+    border-bottom: solid 1px black;
+}
+
+.newsletter-text-field:focus {
+    outline: none;
+    color: white;
 }
 
 .newsletter-submit {
     background: hotpink;
     color: white;
-    font-size: 2rem;
+    font-size: 1rem;
     padding: 0.5rem 1rem;
     border-radius: 2rem;
+    border: none;
+    margin: 0 0 0 1rem;
 }
 
 @media only screen and (max-width: 600px) {
