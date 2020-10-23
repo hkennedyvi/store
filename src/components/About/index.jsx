@@ -10,7 +10,9 @@ function About() {
                 <img className="about-image" src={ShoesImage} alt="shoes" />
             </div>
             <div className="about-blurb-container">
-                <h1 className="about-blurb-header">OH YEAH!</h1>
+                <h1 className="about-blurb-header">
+                    Big Things Here
+                </h1>
                 <p className="about-blurb-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
