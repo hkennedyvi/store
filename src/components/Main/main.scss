@@ -26,6 +26,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: transform .2s;
+}
+
+.small-content:hover {
+    border: red 3px solid;
+    transform: scale(1.1);
 }
 
 .product-image {
