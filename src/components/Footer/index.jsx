@@ -13,9 +13,11 @@ function Footer() {
         </ul>
       </div>
       <div className="footer-main-text">
-        <h1>COMPANY NAME</h1>
+        <h1>SHOPPER</h1>
       </div>
       <div className="footer-icons-container">
+        <p>SOCIAL</p>
+        <div className="footer-icons-row">
           <div className="footer-icon">
             <i className="fab fa-twitter-square"></i>
           </div>
@@ -26,6 +28,19 @@ function Footer() {
             <i className="fab fa-twitter-square"></i>
           </div>
         </div>
+        <p>SHIPPING PARTNERS</p>
+        <div className="footer-icons-row">
+          <div className="footer-icon">
+            <i className="fab fa-twitter-square"></i>
+          </div>
+          <div className="footer-icon">
+            <i className="fab fa-twitter-square"></i>
+          </div>
+          <div className="footer-icon">
+            <i className="fab fa-twitter-square"></i>
+          </div>
+        </div>
+      </div>
       <div className="newsletter-container">
         <p className="newsletter-label">
           Newsletter signup:
