@@ -3,8 +3,8 @@
     color: white;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 3rem 0;
+    justify-content: space-between;
+    padding: 3rem 5rem;
 }
 
 .footer-nav-container {
@@ -20,19 +20,12 @@
     cursor: pointer;
 }
 
-.footer-middle {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50vw;
-}
-
-.footer-text {
-    font-size: 2rem;
-    text-align: center;
+.footer-main-text {
+    color: teal;
 }
 
 .footer-icons-container {
+    width: 20%;
     display: flex;
     font-size: 2rem;
     justify-content: space-around;
@@ -40,8 +33,6 @@
 
 .newsletter-container {
     text-align: center;
-    border: solid white 1px;
-    border-radius: 0.5em;
     padding: 5rem 1rem;
 }
 
@@ -54,7 +45,8 @@
     color: white;
     background: transparent;
     border: none;
-    border-bottom: solid 1px black;
+    border-right: solid 1px grey;
+    border-bottom: solid 1px white;
 }
 
 .newsletter-text-field:focus {

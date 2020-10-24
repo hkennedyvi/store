@@ -12,28 +12,20 @@ function Footer() {
           <li className="footer-nav-item">Contact</li>
         </ul>
       </div>
-      <div className="footer-middle">
-        <div className="footer-text">
-          <p>For more, follow us:</p>
-        </div>
-        <div className="footer-icons-container">
-          <div className="footer-icon">
-            <i className="fab fa-twitter-square"></i>
-          </div>
-          <div className="footer-icon">
-            <i className="fab fa-twitter-square"></i>
-          </div>
-          <div className="footer-icon">
-            <i className="fab fa-twitter-square"></i>
-          </div>
-          <div className="footer-icon">
-            <i className="fab fa-twitter-square"></i>
-          </div>
-          <div className="footer-icon">
-            <i className="fab fa-twitter-square"></i>
-          </div>
-        </div>
+      <div className="footer-main-text">
+        <h1>COMPANY NAME</h1>
       </div>
+      <div className="footer-icons-container">
+          <div className="footer-icon">
+            <i className="fab fa-twitter-square"></i>
+          </div>
+          <div className="footer-icon">
+            <i className="fab fa-twitter-square"></i>
+          </div>
+          <div className="footer-icon">
+            <i className="fab fa-twitter-square"></i>
+          </div>
+        </div>
       <div className="newsletter-container">
         <p className="newsletter-label">
           Newsletter signup:
