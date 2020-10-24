@@ -10,17 +10,19 @@ function About() {
                 <img className="about-image" src={ShoesImage} alt="shoes" />
             </div>
             <div className="about-blurb-container">
-                <h1 className="about-blurb-header">
-                    Big Things Here
-                </h1>
+                <div className="about-circle-frame">
+                    <h1 className="about-blurb-header">
+                        Look no further
+                    </h1>
+                </div>
                 <p className="about-blurb-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                culpa qui officia deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
                 </p>
                 <div className="about-icons-container">
                     <i className="fab fa-twitter-square"></i>
