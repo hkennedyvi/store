@@ -14,7 +14,7 @@ function Footer() {
       </div>
       <div className="footer-middle">
         <div className="footer-text">
-          <p>Find us on social</p>
+          <p>For more, follow us:</p>
         </div>
         <div className="footer-icons-container">
           <div className="footer-icon">
@@ -26,11 +26,17 @@ function Footer() {
           <div className="footer-icon">
             <i className="fab fa-twitter-square"></i>
           </div>
+          <div className="footer-icon">
+            <i className="fab fa-twitter-square"></i>
+          </div>
+          <div className="footer-icon">
+            <i className="fab fa-twitter-square"></i>
+          </div>
         </div>
       </div>
-      <div>
+      <div className="newsletter-container">
         <p className="newsletter-label">
-          Sign up for our newsletter:
+          Newsletter signup:
         </p>
         <form action="">
           <input className="newsletter-text-field" placeholder="email@me.com" type="text" />
