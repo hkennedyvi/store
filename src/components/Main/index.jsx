@@ -8,7 +8,6 @@ function Main() {
         <div className="main-container">
             <div className="main-content">
                 <img className="product-image" src={productImage} alt="product" />
-                
                 <form className="product-form" action="">
                 <h1>PRODUCT NAME</h1>
                     <div className="product-form-item">
