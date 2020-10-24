@@ -8,11 +8,12 @@ function Main() {
         <div className="main-container">
             <div className="main-content">
                 <img className="product-image" src={productImage} alt="product" />
-                <h1>PRODUCT NAME</h1>
+                
                 <form className="product-form" action="">
+                <h1>PRODUCT NAME</h1>
                     <div className="product-form-item">
                         <label className="product-form-label" htmlFor="">
-                            Size
+                            Size:
                             <select className="product-form-select" name="" id="">
                                 <option value="small">Small</option>
                                 <option value="medium">Medium</option>
@@ -22,7 +23,7 @@ function Main() {
                     </div>
                     <div className="product-form-item">
                         <label className="product-form-label" htmlFor="">
-                            Color
+                            Color:
                             <select className="product-form-select" name="" id="">
                                 <option value="red">Red</option>
                                 <option value="blue">Blue</option>

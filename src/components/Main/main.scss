@@ -37,10 +37,12 @@
     display: flex;
     flex-direction: column;
     width: 75%;
+    align-items: center;
 }
 
 .product-form-item {
     background: white;
+    width: 100%;
 }
 
 .product-form-label {
@@ -53,7 +55,7 @@
     background: transparent;
     border: none;
     border-bottom: solid black 1px;
-    width: 90%;
+    width: 85%;
 }
 
 .product-form-submit {
@@ -64,4 +66,5 @@
     font-size: 1.5rem;
     border-radius: 2em;
     border: none;
+    width: 50%;
 }
