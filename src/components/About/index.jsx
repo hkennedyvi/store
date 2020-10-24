@@ -25,9 +25,9 @@ function About() {
                     culpa qui officia deserunt mollit anim id est laborum.
                 </p>
                 <div className="about-icons-container">
-                    <i className="fab fa-twitter-square"></i>
-                    <i className="fab fa-twitter-square"></i>
-                    <i className="fab fa-twitter-square"></i>
+                    <i className="fas fa-box"></i>
+                    <i className="fas fa-shipping-fast"></i>
+                    <i className="fas fa-box-open"></i>
                 </div>
             </div>
         </div>
