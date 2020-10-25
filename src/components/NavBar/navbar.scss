@@ -49,14 +49,14 @@
 
  .burger-line {
     width: 3rem;
-    height: 0.2rem;
+    height: 0.25rem;
     background: hotpink;
     margin: 0.75rem 0;
     transition: 500ms;
  }
 
  .open:nth-child(1) {
-    transform: rotate(45deg) translateY(8px) translateX(8px);
+    transform: rotate(45deg) translateY(12px) translateX(10px);
   }
 
   .open:nth-child(2) {
@@ -64,7 +64,7 @@
   }
 
   .open:nth-child(3) {
-    transform: rotate(-45deg) translateY(-8px) translateX(8px);
+    transform: rotate(-45deg) translateY(-12px) translateX(10px);
   }
 
   .closed:nth-child(1) {
