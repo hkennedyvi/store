@@ -16,7 +16,7 @@ function Footer() {
         <h1>SHOPPER</h1>
       </div>
       <div className="footer-icons-container">
-        <p>SOCIAL</p>
+        <p>Social</p>
         <div className="footer-icons-row">
           <div className="footer-icon">
             <i className="fab fa-twitter-square"></i>
@@ -28,7 +28,7 @@ function Footer() {
             <i className="fab fa-twitter-square"></i>
           </div>
         </div>
-        <p>SHIPPING PARTNERS</p>
+        <p>Shipping Partners</p>
         <div className="footer-icons-row">
           <div className="footer-icon">
             <i className="fab fa-twitter-square"></i>

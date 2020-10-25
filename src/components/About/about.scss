@@ -1,7 +1,15 @@
+$blackPrimary: #000000;
+$blackSecondary: #1F1300;
+$greyPrimary: #7C7C7C;
+$greySecondary: #e4e4e4;
+$redPrimary: #CF4526;
+$yellowPrimary: #FFC15E;
+$bluePrimary: #93E1D8;
+
 .about {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-    background: rgb(208, 232, 240);
+    background: $greySecondary;
 }
 
 .about-image-container {
@@ -16,8 +24,8 @@
 }
 
 .about-blurb-container {
-    border: teal solid 3px;
-    background: rgb(236, 234, 234);
+    border: solid $blackPrimary 3px;
+    background: $greyPrimary;
     border-radius: 0.5em;
     padding: 0 3rem;
     margin: 2rem;
@@ -25,12 +33,12 @@
 
 .about-blurb-header {
     font-size: 4rem;
-    color: rgb(253, 239, 44);
+    color: $yellowPrimary;
     text-align: center;
 }
 
 .about-circle-frame {
-  background: black;
+  background: $blackPrimary;
   width: 300px; 
   height: 300px;
   border-radius: 50%;
@@ -43,12 +51,12 @@
 .about-blurb-text {
     line-height: 3rem;
     font-size: 1.2rem;
-    color: grey;
+    color: $greySecondary;
 }
 
 .about-icons-container {
     font-size: 2rem;
-    color: teal;
+    color: $blackSecondary;
     display: flex;
     justify-content: space-around;
     margin: 3rem 0;
