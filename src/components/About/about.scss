@@ -1,5 +1,5 @@
 $blackPrimary: #000000;
-$blackSecondary: #1F1300;
+$blackSecondary: #0f0f0f;
 $greyPrimary: #7C7C7C;
 $greySecondary: #e4e4e4;
 $redPrimary: #CF4526;
@@ -9,7 +9,7 @@ $bluePrimary: #93E1D8;
 .about {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-    background: $greySecondary;
+    background: $greyPrimary;
 }
 
 .about-image-container {
@@ -25,7 +25,7 @@ $bluePrimary: #93E1D8;
 
 .about-blurb-container {
     border: solid $blackPrimary 3px;
-    background: $greyPrimary;
+    background: $greySecondary;
     border-radius: 0.5em;
     padding: 0 3rem;
     margin: 2rem;
@@ -51,7 +51,7 @@ $bluePrimary: #93E1D8;
 .about-blurb-text {
     line-height: 3rem;
     font-size: 1.2rem;
-    color: $greySecondary;
+    color: $greyPrimary;
 }
 
 .about-icons-container {

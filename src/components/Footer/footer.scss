@@ -1,5 +1,14 @@
+$blackPrimary: #000000;
+$blackSecondary: #0f0f0f;
+$greyPrimary: #7C7C7C;
+$greySecondary: #e4e4e4;
+$redPrimary: #CF4526;
+$yellowPrimary: #FFC15E;
+$bluePrimary: #93E1D8;
+$maybeColor: #1F1300;
+
 .footer {
-    background: black;
+    background: $blackPrimary;
     color: white;
     display: flex;
     align-items: center;
@@ -16,12 +25,12 @@
 
 .footer-nav-item:hover {
     text-decoration: underline;
-    color: grey;
+    color: $greyPrimary;
     cursor: pointer;
 }
 
 .footer-main-text {
-    color: teal;
+    color: $bluePrimary;
 }
 
 .footer-icons-container {
@@ -55,17 +64,17 @@
     color: white;
     background: transparent;
     border: none;
-    border-right: solid 1px grey;
+    border-right: solid 1px $greyPrimary;
     border-bottom: solid 1px white;
 }
 
 .newsletter-text-field:focus {
     outline: none;
-    color: hotpink;
+    color: $yellowPrimary;
 }
 
 .newsletter-submit {
-    background: hotpink;
+    background: $yellowPrimary;
     color: white;
     font-size: 1rem;
     padding: 0.5rem 1rem;

@@ -1,3 +1,12 @@
+$blackPrimary: #000000;
+$blackSecondary: #0f0f0f;
+$greyPrimary: #7C7C7C;
+$greySecondary: #e4e4e4;
+$redPrimary: #CF4526;
+$yellowPrimary: #FFC15E;
+$bluePrimary: #93E1D8;
+$maybeColor: #1F1300;
+
 .hero {
     height: 100vh;
     padding: 20px;
@@ -13,14 +22,14 @@
 
 .header {
     margin: 12rem 0 3rem 0;
-    color: black;
+    color: $blackPrimary;
     font-size: 80px;
     text-align: center;
 }
 
 .button {
-    color: hotpink;
-    background: black;
+    color: $yellowPrimary;
+    background: $blackPrimary;
     width: 8rem;
     height: 8rem;
     border-radius: 5em;

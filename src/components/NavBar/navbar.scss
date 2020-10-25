@@ -1,14 +1,22 @@
+$blackPrimary: #000000;
+$blackSecondary: #0f0f0f;
+$greyPrimary: #7C7C7C;
+$greySecondary: #e4e4e4;
+$redPrimary: #CF4526;
+$yellowPrimary: #FFC15E;
+$bluePrimary: #93E1D8;
+$maybeColor: #1F1300;
+
 .navbar {
     width: 100vw;
     height: 5rem;
     background: transparent;
     position: absolute;
-    color: white;
     transition: height 200ms ease, background-color 200ms ease;
 }
 
 .nav-list {
-    color: hotpink;
+    color: $redPrimary;
     line-height: 5rem;
     list-style: none;
     text-align: center;
@@ -29,13 +37,12 @@
 }
 
 .nav-item-expand:hover {
-    background: rgb(15, 15, 15);
+    background: $blackSecondary;
 }
 
 .navbar-expand {
     height: 25rem;
-    background: black;
-    color: white;
+    background: $blackPrimary;
     transition: height 200ms ease, background-color 200ms ease;
 }
 
@@ -50,7 +57,7 @@
  .burger-line {
     width: 3rem;
     height: 0.25rem;
-    background: hotpink;
+    background: $redPrimary;
     margin: 0.75rem 0;
     transition: 500ms;
  }

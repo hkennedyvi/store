@@ -1,3 +1,12 @@
+$blackPrimary: #000000;
+$blackSecondary: #0f0f0f;
+$greyPrimary: #7C7C7C;
+$greySecondary: #e4e4e4;
+$redPrimary: #CF4526;
+$yellowPrimary: #FFC15E;
+$bluePrimary: #93E1D8;
+$maybeColor: #1F1300;
+
 .main-container {
     display: grid;
     gap: 1rem;
@@ -8,8 +17,8 @@
 .main-content {
     grid-row: span 4 / auto;
     grid-column: span 3 / auto;
-    background: lightgrey;
-    border: 1px blue solid;
+    background: $greySecondary;
+    border: 1px $bluePrimary solid;
     margin: 0.5rem;
     padding: 0;
     display: flex;
@@ -19,8 +28,8 @@
 }
 
 .small-content {
-    background: lightgrey;
-    border: 1px blue solid;
+    background: $greySecondary;
+    border: 1px $bluePrimary solid;
     margin: 0.5rem;
     padding: 0;
     display: flex;
@@ -30,7 +39,7 @@
 }
 
 .small-content:hover {
-    border: red 3px solid;
+    border: $redPrimary 3px solid;
     transform: scale(1.1);
 }
 
@@ -40,7 +49,7 @@
 }
 
 .product-form {
-    background: lightblue;
+    background: $greyPrimary;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -62,7 +71,7 @@
     font-size: 1.5rem;
     background: transparent;
     border: none;
-    border-bottom: solid rgb(253, 239, 44) 3px;
+    border-bottom: solid $yellowPrimary 3px;
     width: 85%;
 }
 
@@ -73,7 +82,7 @@
 
 .product-form-submit {
     margin: 1rem 0 0 0;
-    background: teal;
+    background: $redPrimary;
     color: white;
     padding: 1rem;
     font-size: 1.5rem;
