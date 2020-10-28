@@ -90,3 +90,10 @@ $maybeColor: #1F1300;
     border: none;
     width: 50%;
 }
+
+@media only screen and (max-width: 600px) {
+    .small-content {
+        grid-row: span 3 / auto;
+        grid-column: span 2 / auto;
+    }
+}
