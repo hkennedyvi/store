@@ -49,26 +49,40 @@ $maybeColor: #1F1300;
 }
 
 .shipping-card-front {
-    border-radius: 0.4em;
-    background-color: $redPrimary;
-    color: white;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: $redPrimary;
     text-align: center;
 }
 
 .shipping-card-back {
-    border-radius: 0.5em;
-    background-color: white;
-    color: $blackPrimary;
+    border-radius: 0.4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: $redPrimary;
+    color: white;
     transform: rotateY(180deg);
 }
 
 .shipping-card-header {
+    font-size: 5rem;
+}
+
+.shipping-card-secondary-header {
     font-size: 3rem;
+    padding: 2rem;
+    border-bottom: solid white 2px;
 }
 
 .shipping-card-text {
     font-size: 1.2rem;
-    padding: 2rem;
+    line-height: 3rem;
+    padding: 0 2rem;
 }
 
 @media only screen and (max-width: 600px) {
