@@ -70,3 +70,15 @@ $maybeColor: #1F1300;
     font-size: 1.2rem;
     padding: 2rem;
 }
+
+@media only screen and (max-width: 600px) {
+    .shipping-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .shipping-card {
+        margin: 4rem 0 0 0;
+    }
+}

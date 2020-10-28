@@ -28,7 +28,7 @@ function Footer() {
             <i className="fab fa-twitter-square"></i>
           </div>
         </div>
-        <p>Shipping Partners</p>
+        <p>Partners</p>
         <div className="footer-icons-row">
           <div className="footer-icon">
             <i className="fab fa-twitter-square"></i>
