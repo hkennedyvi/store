@@ -92,8 +92,12 @@ $maybeColor: #1F1300;
 }
 
 @media only screen and (max-width: 600px) {
+    .main-content {
+        margin: 2rem 0 0 0;
+    }
+
     .small-content {
-        grid-row: span 3 / auto;
+        grid-row: span 2 / auto;
         grid-column: span 2 / auto;
     }
 }
