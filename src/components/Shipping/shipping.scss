@@ -7,11 +7,38 @@ $yellowPrimary: #FFC15E;
 $bluePrimary: #93E1D8;
 $maybeColor: #1F1300;
 
-.shipping-container {
+.shipping-main {
+    display: flex;
+    flex-direction: column;
     background: $greySecondary;
-    padding: 5rem 0;
+    padding: 0 0 5rem 0;
+}
+
+.shipping-container {
     display: flex;
     justify-content: space-around;
+}
+
+.shipping-main-header {
+    align-self: center;
+    text-align: center;
+    font-size: 2rem;
+    background: $redPrimary;
+    color: white;
+    width: 100%;
+}
+
+.shipping-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-number {
+    background: white;
+    color: $redPrimary;
+    border-radius: 50%;
+    padding: 1rem 2rem;
 }
 
 .shipping-card {
@@ -22,7 +49,7 @@ $maybeColor: #1F1300;
     // align-items: center;
     background: transparent;
     width: 20rem;
-    height: 40rem;
+    height: 35rem;
     perspective: 1000px;
 }
 
@@ -69,8 +96,8 @@ $maybeColor: #1F1300;
     transform: rotateY(180deg);
 }
 
-.shipping-card-header {
-    font-size: 5rem;
+.shipping-card-icon {
+    font-size: 10rem;
 }
 
 .shipping-card-secondary-header {
@@ -81,7 +108,7 @@ $maybeColor: #1F1300;
 
 .shipping-card-text {
     font-size: 1.2rem;
-    line-height: 3rem;
+    line-height: 2.5rem;
     padding: 0 2rem;
 }
 
