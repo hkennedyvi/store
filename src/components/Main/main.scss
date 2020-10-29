@@ -11,6 +11,8 @@ $blueSecondary: #5899E2;
 $blueThird: #86B4EA;
 
 .main-container {
+    background: $greyPrimary;
+    padding: 2rem 0;
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -20,8 +22,8 @@ $blueThird: #86B4EA;
 .main-content {
     grid-row: span 4 / auto;
     grid-column: span 3 / auto;
-    background: $greySecondary;
-    border: 1px $bluePrimary solid;
+    // background: $greySecondary;
+    // border: 1px $bluePrimary solid;
     margin: 0.5rem;
     padding: 0;
     display: flex;
@@ -31,10 +33,10 @@ $blueThird: #86B4EA;
 }
 
 .small-content {
-    background: $greySecondary;
-    border: 1px $bluePrimary solid;
+    // background: $greySecondary;
+    // border: 1px $bluePrimary solid;
     margin: 0.5rem;
-    padding: 0;
+    // padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +44,7 @@ $blueThird: #86B4EA;
 }
 
 .small-content:hover {
-    border: $redPrimary 3px solid;
+    border: solid $bluePrimary 3px;
     transform: scale(1.1);
 }
 
@@ -52,7 +54,7 @@ $blueThird: #86B4EA;
 }
 
 .product-form {
-    background: $greyPrimary;
+    background: $greySecondary;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -62,7 +64,7 @@ $blueThird: #86B4EA;
 
 .product-form-item {
     width: 80%;
-     margin: 1rem 0 0 0;
+    margin: 1rem 0 0 0;
 }
 
 .product-form-label {
@@ -73,8 +75,9 @@ $blueThird: #86B4EA;
     float: right;
     font-size: 1.5rem;
     background: transparent;
+    color: $bluePrimary;
     border: none;
-    border-bottom: solid $yellowPrimary 3px;
+    border-bottom: solid $blueSecondary 3px;
     width: 85%;
 }
 
@@ -85,13 +88,20 @@ $blueThird: #86B4EA;
 
 .product-form-submit {
     margin: 1rem 0 0 0;
-    background: $redPrimary;
-    color: white;
+    background: white;
+    color: $bluePrimary;
     padding: 1rem;
     font-size: 1.5rem;
+    border: solid $bluePrimary 2px;
     border-radius: 2em;
-    border: none;
+    // border: none;
     width: 50%;
+}
+
+.product-form-submit:hover {
+    background: $bluePrimary;
+    color: white;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 600px) {
