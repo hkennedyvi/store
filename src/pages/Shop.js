@@ -3,7 +3,7 @@ import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import Main from '../components/Main';
 
-function Shop2 () {
+function Shop () {
     return (
         <div>
             <NavBar />
@@ -13,4 +13,4 @@ function Shop2 () {
     )
 }
 
-export default Shop2;
+export default Shop;

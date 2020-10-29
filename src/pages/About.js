@@ -1,16 +1,18 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
-import Hero from '../components/Hero';
+import About from '../components/About';
+import Shipping from '../components/Shipping';
 
-function Home () {
+function AboutPage () {
     return (
         <div>
             <NavBar />
-            <Hero />
+            <About />
+            <Shipping />
             <Footer />
         </div>
     )
 }
 
-export default Home;
+export default AboutPage;

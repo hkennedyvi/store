@@ -19,18 +19,27 @@ function NavBar() {
                 <div className={`burger-line ${burgerStatus}`}></div>
             </button>
             <ul className="nav-list">
+
                 <li className={navBarExpanded ? "nav-item-expand" : "nav-item"}>
-                    HOME
-                  </li>
+                    <a href="/" className="nav-anchor">
+                        HOME
+                    </a>
+                </li>
                 <li className={navBarExpanded ? "nav-item-expand" : "nav-item"}>
-                    ABOUT
-                  </li>
+                    <a href="/about" className="nav-anchor">
+                        ABOUT
+                    </a>
+                </li>
                 <li className={navBarExpanded ? "nav-item-expand" : "nav-item"}>
-                    SHOP
-                  </li>
+                    <a href="/shop" className="nav-anchor">
+                        SHOP
+                    </a>
+                </li>
                 <li className={navBarExpanded ? "nav-item-expand" : "nav-item"}>
-                    CONTACT
-                  </li>
+                    <a href="/" className="nav-anchor">
+                        CONTACT
+                    </a>
+                </li>
             </ul>
         </nav>
     );

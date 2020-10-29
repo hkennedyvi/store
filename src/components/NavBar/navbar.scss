@@ -28,6 +28,14 @@ $blueThird: #86B4EA;
     font-size: 3rem;
 }
 
+.nav-anchor {
+  text-decoration: none;
+}
+
+.nav-anchor:visited {
+  color: inherit;
+}
+
 .nav-item {
     visibility: hidden;
     opacity: 0;
