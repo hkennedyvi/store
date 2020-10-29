@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Home from './pages/Home';
-import Shop from './pages/Shop';
-import About from './pages/About';
+import HomePage from './pages/HomePage';
+import ShopPage from './pages/ShopPage';
+import AboutPage from './pages/AboutPage';
 
 function App() {
   return (
@@ -10,13 +10,13 @@ function App() {
     <div>
       <Switch>
         <Route exact path="/">
-          <Home />
+          <HomePage />
         </Route>
         <Route exact path="/about">
-         <About />
+         <AboutPage />
         </Route>
         <Route exact path="/shop">
-         <Shop />
+         <ShopPage />
         </Route>
       </Switch>
     </div>

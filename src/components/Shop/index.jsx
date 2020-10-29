@@ -1,13 +1,13 @@
 import React from 'react';
-import './main.scss';
+import './shop.scss';
 import productImage from '../../assets/converse.jpg';
 
-function Main() {
+function Shop() {
 
     return (
         <div>
-            <h1 className="main-header">SHOP</h1>
-            <div className="main-container">
+            <h1 className="shop-header">SHOP</h1>
+            <div className="shop-container">
                 <div className="main-content">
                     <img className="product-image-main" src={productImage} alt="product" />
                     <form className="product-form" action="">
@@ -64,4 +64,4 @@ function Main() {
     );
 }
 
-export default Main;
+export default Shop;

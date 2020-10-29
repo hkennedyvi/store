@@ -1,16 +1,16 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
-import Hero from '../components/Hero';
+import Shop from '../components/Shop';
 
-function Home () {
+function ShopPage () {
     return (
         <div>
             <NavBar />
-            <Hero />
+            <Shop />
             <Footer />
         </div>
     )
 }
 
-export default Home;
+export default ShopPage;
