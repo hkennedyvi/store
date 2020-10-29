@@ -1,0 +1,111 @@
+.footer {
+  background: #000000;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 3rem 5rem;
+}
+
+.footer-nav-container {
+  padding: 0;
+  list-style: none;
+  font-size: 1rem;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.footer-nav-item:hover {
+  text-decoration: underline;
+  color: #7C7C7C;
+  cursor: pointer;
+}
+
+.footer-main-text {
+  color: #5899E2;
+}
+
+.footer-icons-container {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.footer-icons-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-icon {
+  font-size: 2rem;
+}
+
+.newsletter-container {
+  text-align: center;
+  padding: 5rem 1rem;
+}
+
+.newsletter-label {
+  font-size: 1rem;
+}
+
+.newsletter-text-field {
+  font-size: 1rem;
+  color: white;
+  background: transparent;
+  border: none;
+  border-right: solid 1px #7C7C7C;
+  border-bottom: solid 1px white;
+}
+
+.newsletter-text-field:focus {
+  outline: none;
+  color: #EEF36A;
+}
+
+.newsletter-submit {
+  background: #EEF36A;
+  color: #000000;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  border: none;
+  margin: 0 0 0 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

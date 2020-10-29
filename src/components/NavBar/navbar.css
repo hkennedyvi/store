@@ -1,0 +1,99 @@
+.navbar {
+  width: 100vw;
+  height: 5rem;
+  background: transparent;
+  position: absolute;
+  -webkit-transition: height 500ms ease, background-color 500ms ease;
+  transition: height 500ms ease, background-color 500ms ease;
+}
+
+.nav-list {
+  color: #5899E2;
+  line-height: 5rem;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 4rem 0 0 0;
+  font-size: 3rem;
+}
+
+.nav-item {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.nav-item-expand {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: visibility 500ms, opacity 1000ms linear;
+  transition: visibility 500ms, opacity 1000ms linear;
+}
+
+.nav-item-expand:hover {
+  background: #0f0f0f;
+  cursor: pointer;
+}
+
+.navbar-expand {
+  height: 25rem;
+  background: #000000;
+  -webkit-transition: height 500ms ease, background-color 500ms ease;
+  transition: height 500ms ease, background-color 500ms ease;
+}
+
+.nav-burger {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1rem;
+  background: transparent;
+  border: none;
+}
+
+.nav-burger .burger-line {
+  width: 3rem;
+  height: 0.25rem;
+  background: #5899E2;
+  margin: 0.75rem 0;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.nav-burger .open:nth-child(1) {
+  -webkit-transform: rotate(45deg) translateY(12px) translateX(10px);
+          transform: rotate(45deg) translateY(12px) translateX(10px);
+  background: #EEF36A;
+}
+
+.nav-burger .open:nth-child(2) {
+  opacity: 0;
+}
+
+.nav-burger .open:nth-child(3) {
+  -webkit-transform: rotate(-45deg) translateY(-12px) translateX(10px);
+          transform: rotate(-45deg) translateY(-12px) translateX(10px);
+  background: #EEF36A;
+}
+
+.nav-burger .closed:nth-child(1) {
+  -webkit-transform: rotate(0) translateY(0);
+          transform: rotate(0) translateY(0);
+}
+
+.nav-burger .closed:nth-child(2) {
+  opacity: 1;
+}
+
+.nav-burger .closed:nth-child(3) {
+  -webkit-transform: rotate(0) translateY(0);
+          transform: rotate(0) translateY(0);
+}
+
+.nav-burger:hover {
+  cursor: pointer;
+}
+
+.nav-burger:focus {
+  outline: none;
+}
+/*# sourceMappingURL=navbar.css.map */

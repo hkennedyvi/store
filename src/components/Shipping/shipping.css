@@ -1,0 +1,163 @@
+.shipping-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #e4e4e4;
+  padding: 0 0 5rem 0;
+}
+
+.shipping-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.shipping-main-header {
+  text-align: center;
+  font-size: 2rem;
+  background: #5899E2;
+  color: white;
+  width: 100%;
+}
+
+.shipping-card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-number {
+  background: white;
+  color: #232ED1;
+  border-radius: 50%;
+  padding: 1rem 2rem;
+}
+
+.shipping-card {
+  font-size: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: transparent;
+  width: 20rem;
+  height: 35rem;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+.shipping-card-inner {
+  border: solid 3px #5899E2;
+  border-radius: 0.5em;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: -webkit-transform 1000ms;
+  transition: -webkit-transform 1000ms;
+  transition: transform 1000ms;
+  transition: transform 1000ms, -webkit-transform 1000ms;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.shipping-card:hover .shipping-card-inner {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.shipping-card-front, .shipping-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.shipping-card-front {
+  border-radius: 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: white;
+  color: #86B4EA;
+  text-align: center;
+}
+
+.shipping-card-back {
+  border-radius: 0.4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #86B4EA;
+  color: white;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.shipping-card-icon {
+  font-size: 10rem;
+}
+
+.shipping-card-secondary-header {
+  font-size: 3rem;
+  padding: 2rem;
+  border-bottom: solid white 2px;
+}
+
+.shipping-card-text {
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  padding: 0 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .shipping-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .shipping-card {
+    margin: 4rem 0 0 0;
+    width: 25rem;
+  }
+}
+/*# sourceMappingURL=shipping.css.map */
