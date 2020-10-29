@@ -3,7 +3,8 @@
   display: grid;
   -ms-grid-columns: (minmax(340px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-  background: #7C7C7C;
+  background: #e4e4e4;
+  padding: 5rem 0 0 0;
 }
 
 .about-image-container {
@@ -11,32 +12,32 @@
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  padding: 2rem;
 }
 
 .about-image {
   width: 70%;
+  min-width: 400px;
   border-radius: 0.5em;
 }
 
 .about-blurb-container {
   border: solid #000000 3px;
-  background: #e4e4e4;
+  background: #7C7C7C;
   border-radius: 0.5em;
   padding: 0 3rem;
   margin: 2rem;
 }
 
 .about-blurb-header {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #EEF36A;
   text-align: center;
 }
 
 .about-circle-frame {
   background: #000000;
-  width: 300px;
-  height: 300px;
+  width: 275px;
+  height: 275px;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -53,7 +54,7 @@
 .about-blurb-text {
   line-height: 3rem;
   font-size: 1.2rem;
-  color: #7C7C7C;
+  color: white;
 }
 
 .about-icons-container {

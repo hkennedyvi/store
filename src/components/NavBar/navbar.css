@@ -17,6 +17,10 @@
   font-size: 3rem;
 }
 
+.nav-anchor:visited {
+  color: inherit;
+}
+
 .nav-item {
   visibility: hidden;
   opacity: 0;

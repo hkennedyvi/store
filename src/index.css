@@ -1,4 +1,8 @@
 body {
   margin: 0;
 }
+
+.nav-anchor {
+  text-decoration: none;
+}
 /*# sourceMappingURL=index.css.map */
