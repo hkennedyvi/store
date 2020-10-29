@@ -10,9 +10,19 @@ $bluePrimary: #232ED1;
 $blueSecondary: #5899E2;
 $blueThird: #86B4EA;
 
+.main-header {
+    font-size: 5rem;
+    color: $blackPrimary;
+    text-align: center;
+    background: $greySecondary;
+    padding: 3rem 0;
+    margin: 0;
+
+}
+
 .main-container {
     background: $greyPrimary;
-    padding: 2rem 0;
+    padding: 5rem 0;
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -33,6 +43,7 @@ $blueThird: #86B4EA;
 
 .small-content {
     margin: 1.2rem;
+    border: solid $blackPrimary 3px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,13 +56,18 @@ $blueThird: #86B4EA;
     transform: scale(1.1);
 }
 
-.product-image {
+.product-image-main {
     height: cover;
     width: 100%;
 }
 
+.product-image-small {
+    height: 100%;
+    width: 100%;
+}
+
 .product-form {
-    background: $greySecondary;
+    background: white;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -85,19 +101,19 @@ $blueThird: #86B4EA;
 
 
 .product-form-submit {
-    margin: 1rem 0 0 0;
-    background: white;
-    color: $bluePrimary;
+    margin: 1rem 0;
+    background: $blackThird;
+    color: $yellowPrimary;
     padding: 1rem;
     font-size: 1.5rem;
-    border: solid $bluePrimary 2px;
+    border: solid $yellowPrimary 2px;
     border-radius: 2em;
     width: 50%;
 }
 
 .product-form-submit:hover {
-    background: $bluePrimary;
-    color: white;
+    background: $yellowPrimary;
+    color: $blackThird;
     cursor: pointer;
 }
 

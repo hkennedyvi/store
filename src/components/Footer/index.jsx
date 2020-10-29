@@ -16,30 +16,30 @@ function Footer() {
         <h1>SHOPPER</h1>
       </div>
       <div className="footer-icons-container">
+        <div className="footer-icons-row">
+          <div className="footer-icon">
+            <i class="fab fa-twitter"></i>
+          </div>
+          <div className="footer-icon">
+            <i class="fab fa-instagram"></i>
+          </div>
+          <div className="footer-icon">
+            <i class="fab fa-facebook"></i>
+          </div>
+        </div>
         <p>Social</p>
         <div className="footer-icons-row">
           <div className="footer-icon">
-            <i className="fab fa-twitter-square"></i>
+            <i class="fas fa-industry"></i>
           </div>
           <div className="footer-icon">
-            <i className="fab fa-twitter-square"></i>
+            <i class="fas fa-building"></i>
           </div>
           <div className="footer-icon">
-            <i className="fab fa-twitter-square"></i>
+            <i class="fas fa-landmark"></i>
           </div>
         </div>
-        <p>Partners</p>
-        <div className="footer-icons-row">
-          <div className="footer-icon">
-            <i className="fab fa-twitter-square"></i>
-          </div>
-          <div className="footer-icon">
-            <i className="fab fa-twitter-square"></i>
-          </div>
-          <div className="footer-icon">
-            <i className="fab fa-twitter-square"></i>
-          </div>
-        </div>
+        <p>Our Partners</p>
       </div>
       <div className="newsletter-container">
         <p className="newsletter-label">
