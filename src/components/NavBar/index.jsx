@@ -36,7 +36,7 @@ function NavBar() {
                     </a>
                 </li>
                 <li className={navBarExpanded ? "nav-item-expand" : "nav-item"}>
-                    <a href="/" className="nav-anchor">
+                    <a href="/contact" className="nav-anchor">
                         CONTACT
                     </a>
                 </li>
