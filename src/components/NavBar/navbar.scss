@@ -15,7 +15,7 @@ $blueThird: #86B4EA;
     height: 5rem;
     background: transparent;
     position: absolute;
-    transition: height 200ms ease, background-color 200ms ease;
+    transition: height 500ms ease, background-color 500ms ease;
 }
 
 .nav-list {
@@ -41,12 +41,13 @@ $blueThird: #86B4EA;
 
 .nav-item-expand:hover {
     background: $blackSecondary;
+    cursor: pointer;
 }
 
 .navbar-expand {
     height: 25rem;
     background: $blackPrimary;
-    transition: height 200ms ease, background-color 200ms ease;
+    transition: height 500ms ease, background-color 500ms ease;
 }
 
 .nav-burger {
@@ -88,6 +89,10 @@ $blueThird: #86B4EA;
   .closed:nth-child(3) {
     transform: rotate(0) translateY(0);
   }
+}
+
+.nav-burger:hover {
+  cursor: pointer;
 }
 
 .nav-burger:focus {
