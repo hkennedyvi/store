@@ -6,10 +6,26 @@ function Footer() {
     <div className="footer">
       <div>
         <ul className="footer-nav-container">
-          <li className="footer-nav-item">Home</li>
-          <li className="footer-nav-item">About</li>
-          <li className="footer-nav-item">Shop</li>
-          <li className="footer-nav-item">Contact</li>
+          <li className="footer-nav-item">
+            <a className="nav-anchor" href="/">
+              Home
+            </a>
+          </li>
+          <li className="footer-nav-item">
+            <a className="nav-anchor" href="/about">
+              About
+            </a>
+          </li>
+          <li className="footer-nav-item">
+            <a className="nav-anchor" href="/shop">
+              Shop
+            </a>
+          </li>
+          <li className="footer-nav-item">
+            <a className="nav-anchor" href="/contact">
+              Contact
+            </a>
+          </li>
         </ul>
       </div>
       <div className="footer-main-text">
