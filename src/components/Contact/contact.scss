@@ -24,8 +24,41 @@ $blueThird: #86B4EA;
 }
 
 .contact-header {
-    margin: 12rem 0 3rem 0;
+    margin: 0;    
     color: $blackPrimary;
-    font-size: 80px;
-    text-align: center;
+    font-size: 60px;
+    
+}
+
+.contact-form {
+    margin: 5rem 0 0 0;
+    background: $yellowPrimary;
+    padding: 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-input {
+    margin: 2rem 0 0 0;
+    background: transparent;
+    width: 500px;
+    border: none;
+    border-bottom: solid $greyPrimary 3px;
+}
+
+.contact-textarea {
+    margin: 2rem 0 0 0;
+    background: transparent;
+    border-bottom: solid $greyPrimary 3px;
+}
+
+.contact-submit {
+    margin: 1rem 0 0 0;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    background: $blueSecondary;
+    color: white;
+    align-self: flex-end;
+    border: solid $blueThird 3px;
 }
