@@ -34,25 +34,25 @@ function Footer() {
       <div className="footer-icons-container">
         <div className="footer-icons-row">
           <div className="footer-icon">
-            <i class="fab fa-twitter"></i>
+            <i className="fab fa-twitter"></i>
           </div>
           <div className="footer-icon">
-            <i class="fab fa-instagram"></i>
+            <i className="fab fa-instagram"></i>
           </div>
           <div className="footer-icon">
-            <i class="fab fa-facebook"></i>
+            <i className="fab fa-facebook"></i>
           </div>
         </div>
         <p>Social</p>
         <div className="footer-icons-row">
           <div className="footer-icon">
-            <i class="fas fa-industry"></i>
+            <i className="fas fa-industry"></i>
           </div>
           <div className="footer-icon">
-            <i class="fas fa-building"></i>
+            <i className="fas fa-building"></i>
           </div>
           <div className="footer-icon">
-            <i class="fas fa-landmark"></i>
+            <i className="fas fa-landmark"></i>
           </div>
         </div>
         <p>Our Partners</p>
