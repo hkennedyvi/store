@@ -17,7 +17,7 @@ $blueThird: #86B4EA;
     background: $greySecondary;
     padding: 3rem 0;
     margin: 0;
-
+    border-bottom: solid $blackPrimary 3px;
 }
 
 .shop-container {
@@ -99,7 +99,6 @@ $blueThird: #86B4EA;
     outline: none;
 }
 
-
 .product-form-submit {
     margin: 1rem 0;
     background: $blackThird;
@@ -123,7 +122,7 @@ $blueThird: #86B4EA;
     }
 
     .main-content {
-        margin: 0 2rem;
+        margin: 0 5rem;
     }
 
     .small-content {

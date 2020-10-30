@@ -10,6 +10,16 @@ $bluePrimary: #232ED1;
 $blueSecondary: #5899E2;
 $blueThird: #86B4EA;
 
+.about-header {
+    font-size: 5rem;
+    color: $blackPrimary;
+    text-align: center;
+    background: white;
+    padding: 3rem 0;
+    margin: 0;
+    border-bottom: solid $blackPrimary 3px;
+}
+
 .about {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));

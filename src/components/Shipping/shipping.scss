@@ -27,6 +27,8 @@ $blueThird: #86B4EA;
     font-size: 2rem;
     background: $blueSecondary;
     color: white;
+    border-top: solid $bluePrimary 3px;
+    border-bottom: solid $bluePrimary 3px;
     width: 100%;
 }
 

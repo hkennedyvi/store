@@ -6,7 +6,9 @@ function Shop() {
 
     return (
         <div>
-            <h1 className="shop-header">SHOP</h1>
+            <h1 className="shop-header">
+                SHOP
+            </h1>
             <div className="shop-container">
                 <div className="main-content">
                     <img className="product-image-main" src={productImage} alt="product" />
