@@ -2,6 +2,11 @@ import React from 'react';
 import './footer.scss';
 
 function Footer() {
+
+  function submitEmail(e) {
+    e.preventDefault();
+  };
+
   return (
     <div className="footer">
       <div>
@@ -63,7 +68,7 @@ function Footer() {
         </p>
         <form action="">
           <input className="newsletter-text-field" placeholder="email@me.com" type="text" />
-          <input className="newsletter-submit" type="submit" value="GO" />
+          <input onClick={submitEmail} className="newsletter-submit" type="submit" value="GO" />
         </form>
       </div>
     </div>

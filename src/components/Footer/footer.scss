@@ -87,6 +87,14 @@ $blueThird: #86B4EA;
     margin: 0 0 0 1rem;
 }
 
+.newsletter-submit:focus {
+    outline: none;
+}
+
+.newsletter-submit:hover {
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 600px) {
     .footer {
         display: flex;

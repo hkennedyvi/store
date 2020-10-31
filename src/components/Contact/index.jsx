@@ -5,7 +5,8 @@ function Contact() {
 
     function sendMessage(e) {
         e.preventDefault();
-    }
+    };
+    
     return (
         <div className="contact">
             <form className="contact-form" action="">

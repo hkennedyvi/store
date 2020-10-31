@@ -118,6 +118,10 @@ $blueThird: #86B4EA;
     width: 50%;
 }
 
+.product-form-submit:focus {
+    outline: none;
+}
+
 .product-form-submit:hover {
     background: $yellowPrimary;
     color: $blackThird;

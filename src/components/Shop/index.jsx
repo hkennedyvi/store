@@ -75,6 +75,10 @@ function Shop() {
         });
     };
 
+    function addToCart(e) {
+        e.preventDefault();
+      };
+
     return (
         <div>
             <h1 className="shop-header">
@@ -106,7 +110,7 @@ function Shop() {
                                 </select>
                             </label>
                         </div>
-                        <input className="product-form-submit" type="submit" value="Add to Cart" />
+                        <input onClick={addToCart} className="product-form-submit" type="submit" value="Add to Cart" />
                     </form>
                 </div>
                 {allProducts.map((item) => {
