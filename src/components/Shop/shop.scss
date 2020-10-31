@@ -136,6 +136,7 @@ $blueThird: #86B4EA;
 
     .main-content {
         margin: 0 5rem;
+        grid-row: span 3 / auto;
     }
 
     .small-content {
@@ -145,6 +146,6 @@ $blueThird: #86B4EA;
     }
 
     .product-form-submit {
-        margin: 5rem 0 0 0;
+        width: 70%;
     }
 }
