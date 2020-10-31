@@ -15,7 +15,7 @@ $blueThird: #86B4EA;
     height: 5rem;
     background: transparent;
     position: absolute;
-    transition: height 500ms ease, background-color 500ms ease;
+    transition: height 300ms ease, background-color 300ms ease;
 }
 
 .nav-list {
@@ -51,7 +51,7 @@ $blueThird: #86B4EA;
 .navbar-expand {
     height: 25rem;
     background: $blackPrimary;
-    transition: height 500ms ease, background-color 500ms ease;
+    transition: height 300ms ease, background-color 300ms ease;
 }
 
 .nav-burger {

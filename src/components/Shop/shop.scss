@@ -51,9 +51,10 @@ $blueThird: #86B4EA;
 }
 
 .small-content:hover {
-    background: $greySecondary;
+    cursor: pointer;
     border: solid $bluePrimary 3px;
     transform: scale(1.1);
+
 }
 
 .product-image-main {
