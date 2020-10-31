@@ -27,28 +27,39 @@ $blueThird: #86B4EA;
     margin: 0;    
     color: $blackPrimary;
     font-size: 60px;
-    
 }
 
 .contact-form {
     margin: 5rem 0 0 0;
     background: $yellowPrimary;
+    opacity: 0.9;
     padding: 2rem 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.contact-input {
+.contact-label {
     margin: 2rem 0 0 0;
+    width: 100%;
+    font-weight: bolder;
+}
+
+.contact-input {
     background: transparent;
-    width: 500px;
+    width: 85%;
     border: none;
     border-bottom: solid $greyPrimary 3px;
+    float: right;
+}
+
+.contact-input:focus, .contact-textarea:focus, .contact-submit:focus {
+    outline: none;
 }
 
 .contact-textarea {
-    margin: 2rem 0 0 0;
+    width: 85%;
+    align-self: flex-end;
     background: transparent;
     border-bottom: solid $greyPrimary 3px;
 }
@@ -61,4 +72,18 @@ $blueThird: #86B4EA;
     color: white;
     align-self: flex-end;
     border: solid $blueThird 3px;
+}
+
+.contact-submit:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-header {
+        font-size: 2rem;
+    }
+
+    .contact-input, .contact-textarea {
+        width: 100%;
+    }
 }
