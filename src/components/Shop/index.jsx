@@ -56,21 +56,23 @@ function Shop() {
         }
     ];
 
+    let defaultProduct = allProducts[0];
+
     const [selectedProduct, setSelectedProduct] = useState({
-        productId: allProducts[0].productId,
-        productName: allProducts[0].productName,
-        productPrice: allProducts[0].productPrice,
-        productImage: allProducts[0].productImage
+        productId: defaultProduct.productId,
+        productName: defaultProduct.productName,
+        productPrice: defaultProduct.productPrice,
+        productImage: defaultProduct.productImage
     });
 
     function selectProduct(e) {
+        let product = e.target;
+        
         setSelectedProduct({
-            productName: e.target.title,
-            productImage: e.target.src,
-
-            // Needs debugging
-            productPrice: e.target.price
-        })
+            productName: product.title,
+            productImage: product.src,
+            productPrice: product.getAttribute('price')
+        });
     };
 
     return (
@@ -82,8 +84,8 @@ function Shop() {
                 <div className="main-content">
                     <img className="product-image-main" src={selectedProduct.productImage} alt="product" />
                     <form className="product-form" action="">
-                        <h1>{selectedProduct.productName}</h1>
-                        <p>{selectedProduct.productPrice}</p>
+                        <h1 className="product-name">{selectedProduct.productName}</h1>
+                        <p className="product-price">{selectedProduct.productPrice}</p>
                         <div className="product-form-item">
                             <label className="product-form-label" htmlFor="">
                                 Size:
@@ -107,17 +109,16 @@ function Shop() {
                         <input className="product-form-submit" type="submit" value="Add to Cart" />
                     </form>
                 </div>
-                {allProducts.map((item, index) => {
+                {allProducts.map((item) => {
                     return (
-                        <div className="small-content">
+                        <div key={item.productId} className="small-content">
                             <img
                                 onClick={selectProduct}
                                 className="product-image-small"
                                 alt="product"
-                                src={allProducts[index].productImage}
-                                productId={allProducts[index].productId}
-                                title={allProducts[index].productName}
-                                price={allProducts[index].productPrice}
+                                src={item.productImage}
+                                title={item.productName}
+                                price={item.productPrice}
                             />
                         </div>
                     )

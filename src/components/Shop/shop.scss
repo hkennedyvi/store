@@ -76,6 +76,14 @@ $blueThird: #86B4EA;
     justify-content: center;
 }
 
+.product-name {
+    margin: 1rem 0 0 0;
+}
+
+.product-price {
+    margin: 0;
+}
+
 .product-form-item {
     width: 80%;
     margin: 1rem 0 0 0;
@@ -89,7 +97,7 @@ $blueThird: #86B4EA;
     float: right;
     font-size: 1.5rem;
     background: transparent;
-    color: $bluePrimary;
+    color: $blackPrimary;
     border: none;
     border-bottom: solid $blueSecondary 3px;
     width: 85%;
