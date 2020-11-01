@@ -130,19 +130,27 @@ $blueThird: #86B4EA;
 }
 
 @media only screen and (max-width: 600px) {
-    .main-container {
+    .shop-container {
         gap: 0;
     }
 
     .main-content {
-        margin: 0 5rem;
+        margin: 0 2rem;
         grid-row: span 3 / auto;
+    }
+
+    .product-name {
+        margin: 0;
     }
 
     .small-content {
         margin: 1rem;
         grid-row: span 1 / auto;
         grid-column: span 1 / auto;
+    }
+
+    .product-form-select {
+        width: 80%;
     }
 
     .product-form-submit {

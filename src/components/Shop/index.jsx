@@ -89,7 +89,7 @@ function Shop() {
                     <img className="product-image-main" src={selectedProduct.productImage} alt="product" />
                     <form className="product-form" action="">
                         <h1 className="product-name">{selectedProduct.productName}</h1>
-                        <p className="product-price">{selectedProduct.productPrice}</p>
+                        <p className="product-price">({selectedProduct.productPrice})</p>
                         <div className="product-form-item">
                             <label className="product-form-label" htmlFor="">
                                 Size:
