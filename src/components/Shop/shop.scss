@@ -131,6 +131,8 @@ $blueThird: #86B4EA;
 
 @media only screen and (max-width: 600px) {
     .shop-container {
+        //adjust for better sizing
+        grid-template-columns: none;
         gap: 0;
     }
 
